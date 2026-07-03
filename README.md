@@ -1,4 +1,4 @@
-# 🌐 Proyecto Web – Página HTML y CSS
+# 🌐 Proyecto Web (web juvenil para podcast de libros)
 
 ## 📖 Descripción
 
