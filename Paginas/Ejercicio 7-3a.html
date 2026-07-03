@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Página 7-3a</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="documento de html/css para práctica">
+	<meta name="keywords" content="html, css, práctica">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="author" content="alumna Raquel Lillo">
+	<link rel="stylesheet" type="text/css" href="Ejercicio 7-3a.css">
+	<style type="text/css">	
+	</style>
+</head>
+
+
+<body>
+	
+	<header>
+		<div class="subtitulo">La biblioteca del cuervo<img src="./img/7-3a.jpg" alt="libros apilados" width="17%" class="difumino"></div> 
+		<div>Reseñas de libros para ser leídas o escuchadas.</div>
+		
+		<div>
+			<ul>
+			<li><a href="./escuchar.html">Escuchar</a></li>
+			<li><a href="./lecturas/Ejercicio 7-3c.html">Leer</a></li>
+			<li>Club de lectura</li>
+			<li><a href="https://www.casadellibro.com/" target="_blank">Comprar libros</a></li>
+			<li><a href="https://www.ivoox.com/podcast-biblioteca-del-cuervo_sq_f1499561_1.html" target="_blank">Podcast</a></li>
+			<li><a href="../index.html">Inicio</a></li>
+			</ul>
+		</div>
+		<hr></hr>		
+	</header>
+	
+	<div class="separo"> </div>
+
+	<main>
+			
+		<form id="formulario6.3" method="post" enctype="text/plain" accept-charset="utf-8" class="form">
+			
+		<div class="cuerpo">
+		
+			<div class="textos"><b>Sobre ti:</b></div>
+				<br>
+				<div class="linea">
+					<div class="textos">
+					Nombre
+					</div>
+					<div class="controles">
+					<input type="text" name="nombre" size="30" >
+					</div>
+				</div>
+					
+				<div class="linea">
+						<div class="textos">
+						Correo 
+						</div>
+					<div class="controles">
+					<input type="email" name="correo" placeholder="obligatorio" size="30" required>
+					</div>
+				</div>
+				<br>
+		
+
+				<div class="linea">
+					<div class="textos">Géneros favoritos</div>	<!--campo label coloreado con pseudoclases para destacar algunas palabras-->
+					
+					<div class="controles">
+						<label for="fav1">Narrativa</label>
+						<input type="radio" name="cliente" id="fav1" value="1"checked>
+					<br>
+						<label for="fav2">Ficción</label>		
+						<input type="radio" name="fic" id="fav2" value="1"> 
+					<br>
+						<label for="fav3">No-Ficción</label>
+						<input type="radio" name="nofic" id="fav3" value="1"> 
+					<br>
+						<label for="fav4">Fantasía</label>
+						<input type="radio" name="poe" id="fav4" value="1"> 
+					<br>
+						<label for="fav5">Drama</label>
+						<input type="radio" name="dra" id="fav5" value="1"> 
+					<br>	
+						<label for="fav6">Comedia</label>
+						<input type="radio" name="com" id="fav6" value="1"> 
+					<br>
+						<label for="fav7">Poesia<label>
+						<input type="radio" name="tra" id="fav7" value="1"> 
+					<br>	
+						<label for="fav8">Tragedia</label>
+						<input type="radio" name="fan" id="fav8" value="1">
+					<br>
+						<label for="fav9">Ciencia Ficción</label>
+						<input type="radio" name="cifi" id="Fav9" value="1"> 
+					<br>
+						<label for="fav10">Romántica</label>
+						<input type="radio" name="rom" id="fav10" value="1"> 
+					<br>				
+					</div>
+				</div>
+			
+			
+				<br>
+			
+			
+				<div class="linea">		<!--lista desplegable-->
+					<div class="textos">Favoritos:</div>
+					<div class="controles">
+						<input type="text" list="titulos" size="30">
+						<datalist id="titulos">
+							<option value="Harry Potter"></option>
+							<option value="El señor de los anillos"></option>
+							<option value="La historia interminable"></option>
+							<option value="Buenos presagios"></option>
+							<option value="Orgullo y prejuicio"></option>
+						</datalist>
+					</div>
+				</div>	
+		
+				<br>
+				<br>
+				
+			
+				<div class="linea">	 <!--botones coloreados con pseudoclases-->
+					<div class="textos">
+						<input type="reset" value="Cancelar"> 
+					</div>
+					
+					<div class="controles">
+						<input type="submit" value="Enviar">
+					</div>
+				</div>	
+		
+			</div>		
+					
+		</form>
+	</main>
+
+	<aside>
+			<div name="1">Hacemos reuniones online via Teams, mensuales.<br>
+			Rellena esta formulario para participar.<br>
+			Recibirás en tu correo toda la información sobre las fechas,<br>
+			los horarios y el libro que comentaremos.</div> 
+			<div name="2">
+			 <img src="./img/libros3a.jpg" alt="libros apilados" width="97%">
+			 <div>
+	</aside>
+
+	 <footer>
+		<p style="font-size: 11px;">Página oficial de La Biblioteca del Cuervo<br>
+		Contacto en:  labibliotecadelcuervo@gmail.com</p>
+	</footer>
+</body>
+</html>
+	
+	
+	
+	
